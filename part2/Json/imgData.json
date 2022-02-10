@@ -1,0 +1,86 @@
+[
+	{
+	"imageLocation":"imgs/img1.jpg",
+	"imageCaption":"BC tunnel"
+	},
+	{
+	"imageLocation":"imgs/img2.jpg",
+	"imageCaption":"Vancouver"
+	},
+	{
+	"imageLocation":"imgs/img3.jpg",
+	"imageCaption":"Beach and Mountains"
+	},
+	{
+	"imageLocation":"imgs/img4.jpg",
+	"imageCaption":"Sunset over pacific ocean and mountains"
+	},
+	{
+	"imageLocation":"imgs/img5.jpg",
+	"imageCaption":"Waterfall British Columbia"
+	},
+	{
+	"imageLocation":"imgs/img6.jpg",
+	"imageCaption":"Bear in the area warning"
+	},
+	{
+	"imageLocation":"imgs/img7.jpg",
+	"imageCaption":"Mountain and lake in BC"
+	},
+	{
+	"imageLocation":"imgs/img8.jpg",
+	"imageCaption":"Pacific Ocean shore"
+	},
+	{
+	"imageLocation":"imgs/img9.jpg",
+	"imageCaption":"Mountain forest"
+	},
+	{
+	"imageLocation":"imgs/img10.jpg",
+	"imageCaption":"Mountain slope"
+	},
+	{
+		"imageLocation":"imgs/img11.jpg",
+		"imageCaption":"Sailboats in a lake with mountains in the background"
+		},
+		{
+		"imageLocation":"imgs/img12.jpg",
+		"imageCaption":"Peace bridge in Calgary"
+		},
+		{
+		"imageLocation":"imgs/img13.jpg",
+		"imageCaption":"Mountain and lake in Banff"
+		},
+		{
+		"imageLocation":"imgs/img14.jpg",
+		"imageCaption":"Lake Moraine, Banff"
+		},
+		{
+		"imageLocation":"imgs/img15.jpg",
+		"imageCaption":"Waterfall in Alberta"
+		},
+		{
+		"imageLocation":"imgs/img16.jpg",
+		"imageCaption":"Mountains in Alberta"
+		},
+		{
+		"imageLocation":"imgs/img17.jpg",
+		"imageCaption":"Queens Park sunset in Toronto"
+		},
+		{
+		"imageLocation":"imgs/img18.jpg",
+		"imageCaption":"Sunset over lake Ontario"
+		},
+		{
+		"imageLocation":"imgs/img19.jpg",
+		"imageCaption":"View of Toronto sunset"
+		},
+		{
+		"imageLocation":"imgs/img20.jpg",
+		"imageCaption":"Sunset over Toronto"
+		},
+		{
+		"imageLocation":"imgs/img21.jpg",
+		"imageCaption":"Niagra Falls"
+		}
+	]

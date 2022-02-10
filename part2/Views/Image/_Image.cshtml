@@ -1,0 +1,10 @@
+﻿@model part2.Models.Image_Class
+
+    <h3>Image</h3>
+    @Html.DisplayNameFor(m => Model.img_name):@Html.DisplayFor(m => Model.img_name); <br />
+
+    <h1>@Session["Image_index"]</h1>
+
+    <img id="image_shown" src="@Url.Content(@Model.img_location)" alt="@Model.img_description" style="height: 200px; width: auto" ";  />
+
+

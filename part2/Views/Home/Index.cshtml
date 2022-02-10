@@ -1,0 +1,41 @@
+﻿@using part2.Models
+@model  List<Image_Class>
+@{
+    ViewBag.Title = "Home Page";
+    AjaxOptions ajaxOptions = new AjaxOptions
+    {
+        HttpMethod = "POST",
+        InsertionMode = InsertionMode.Replace,
+        UpdateTargetId = "image_block"
+    };
+}
+
+<h3>Image</h3>
+@Html.DisplayNameFor(m => Model[0].img_name):@Html.DisplayFor(m => Model[0].img_name);
+@Html.DisplayNameFor(m => Model[1].img_name):@Html.DisplayFor(m => Model[1].img_description);
+<br />
+
+<h1>@Session["Image_index"]</h1>
+
+<img id="image_shown" src="@Url.Content(@Model[0].img_location)" alt="@(Model[0].img_description)" style="height: 200px; width: auto; display: none; " ; />
+<img id="image_shown2" src="@Url.Content(@Model[1].img_location)" alt="@(Model[1].img_description)" style="height: 200px; width: auto" ";    />
+
+@foreach (var item in Model)
+{
+
+<img id="image_shown@item.img_id" src="@Url.Content(@item.img_location)" alt="@(item.img_description)" style="height: 200px; width: auto; " ; />
+}
+
+<div id="btn_group">
+    <button id="btn_prev">Back</button>
+    <button id="btn_startStop">Play</button>
+    <button id="btn_next">Forward</button>
+    <button id="btn_randOrSeq">Sequential</button>
+</div>
+
+<script src="/Scripts/script.js"></script>
+<script>
+    $("#btn_next").click(function () {
+        $('#image_shown').toggle('slow');
+    });
+</script>
